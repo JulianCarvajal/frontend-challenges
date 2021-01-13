@@ -14,8 +14,38 @@
 }
 
 html {
-  font-family: font-family: 'Spartan', sans-serif;;
+  font-family: 'Spartan', sans-serif;
+  font-size: 62.5%;
 }
+
+.main {
+  padding: 80px 20px;
+  background-image: url('./images/bg-pattern-top-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Main description */
+.main__description {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 110px);
+}
+.description__title {
+  padding: 0 10px;
+  font-size: 2.9rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--dark-magenta);
+  line-height: 1;
+}
+.description__p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
 
 
 
