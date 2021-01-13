@@ -1,7 +1,30 @@
+:root {
+  --dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-gray: hsl(303, 10%, 53%);
+  --light-gray: hsl(300, 24%, 96%);
+  --just-white: #ffffff;
+  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: font-family: 'Spartan', sans-serif;;
+}
+
+
+
+
+/* Attribution */
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
