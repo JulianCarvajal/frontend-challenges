@@ -20,7 +20,7 @@ html {
 
 .main {
   padding: 80px 20px;
-  background-image: url('./images/bg-pattern-top-mobile.svg');
+  background-image: url('../images/bg-pattern-top-mobile.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -71,7 +71,7 @@ html {
   width: 25px;
   height: 100%;
   display: inline-block;
-  background-image: url('./images/icon-star.svg');
+  background-image: url('../images/icon-star.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
