@@ -51,6 +51,39 @@ html {
     color: white;
 }
 
+/* MAIN */
+.main {
+    width: 100%;
+    padding: 100px 20px;
+}
+/* Main intro */
+.intro {
+    margin-bottom: 100px;
+}
+.intro__image {
+    width: 100%;
+}
+.intro__image img {
+    width: inherit;
+}
+.intro__text-container {
+    margin-top: 50px;
+}
+.second__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.intro__info {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(140, 140, 140);
+}
+
 
 
 
