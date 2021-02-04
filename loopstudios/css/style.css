@@ -112,6 +112,9 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.creations__item p {
+    z-index: 0;
+}
 .earth {
     background-image: url('../images/mobile/image-deep-earth.jpg');
 }
