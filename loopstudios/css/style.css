@@ -88,7 +88,7 @@ html {
 .creations {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 60px repeat(8, 120px);
+    grid-template-rows: 60px repeat(8, 120px) 60px;
     gap: 20px;
 }
 .creations__item:before {
@@ -140,6 +140,19 @@ html {
     background-image: url('../images/mobile/image-fisheye.jpg');
 }
 
+.creations__all {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    justify-self: center;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(105, 105, 105);
+}
 
 
 
