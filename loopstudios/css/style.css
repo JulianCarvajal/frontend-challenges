@@ -36,6 +36,21 @@ html {
     display: none;
 }
 
+.nav__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    color: white;
+    list-style: none;
+}
+.list__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
 .header__description {
     display: flex;
 }
@@ -98,7 +113,7 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.5);
 }
 .creations__item {
     display: flex;
@@ -155,6 +170,42 @@ html {
 }
 
 
+/* FOOTER */
+.footer {
+    display: grid;
+    grid-template-columns: minmax(260px, 500px);
+    grid-template-rows: 40px 200px 40px 60px 40px;
+    justify-items: center;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    padding: 50px 20px 0 20px;
+    background-color: black;
+}
+.footer > ul > .list__item {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+}
+.footer__social-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.social-link__item {
+    width: 20px;
+    height: 20px;
+}
+.footer__rights {
+    font-family: 'Alata', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #696969;
+}
+
+
+
 
 
 
@@ -163,9 +214,10 @@ html {
 
 /* Atribution */
 .attribution {
-    font-size: 11px;
+    font-size: 1.2rem;
     text-align: center;
+    color: #696969;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: #696969;
 }
